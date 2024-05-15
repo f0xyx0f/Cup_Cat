@@ -23,7 +23,6 @@ public class Change_Value : MonoBehaviour
                 ReplaceText(i, value[i]);
             else
                 ReplaceText(i, '0');
-            print(oldVal);
             await Task.Delay(100);
         }
     }
