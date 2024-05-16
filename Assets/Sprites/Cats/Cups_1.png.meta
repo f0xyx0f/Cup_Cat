@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4831ea4470dd14d31aa9e386ef63567c
+guid: 37a9ce67bda9e47acb08f0264548fae1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,190 +110,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cups_1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 720
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50f863129769142109eb8defcb89a520
-      internalID: -2063312492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cups_1_1
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 720
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89a9de701abfb4609b749cda0840b0bf
-      internalID: -30370868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cups_1_2
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 720
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e7bd35706a9a4472bf9ca895462f26b
-      internalID: -390800091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cups_1_3
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 720
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 583c81114688548d38f3127df66931bd
-      internalID: 1787031829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cups_1_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 480
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8505acb7015c4a5c9ad9471dfefa04c
-      internalID: -1323598529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cups_1_5
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 480
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50ddcfbc562c745c0aaf09cde18a86f6
-      internalID: 184048762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cups_1_6
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 480
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56fc7277984374a32af610d50a30b5e0
-      internalID: 341975554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cups_1_7
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 480
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69107277e58954897a52c8ff4c8292bf
-      internalID: -1879580033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Cups_1_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 240
-        width: 240
-        height: 240
+        y: 480
+        width: 480
+        height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f72142edb8a854fd189d60608184444d
-      internalID: 1668190301
+      spriteID: 712d1004348714e31a624a4ffa3b2959
+      internalID: 260275066
       vertices: []
       indices: 
       edges: []
@@ -302,19 +134,19 @@ TextureImporter:
       name: Cups_1_9
       rect:
         serializedVersion: 2
-        x: 240
-        y: 240
-        width: 240
-        height: 240
+        x: 480
+        y: 480
+        width: 480
+        height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c151ae425173477eb56feac9cd6f57d
-      internalID: -2118111531
+      spriteID: e9b2b13181cc2436ea632a8ee29d8931
+      internalID: -2110609626
       vertices: []
       indices: 
       edges: []
@@ -323,19 +155,19 @@ TextureImporter:
       name: Cups_1_10
       rect:
         serializedVersion: 2
-        x: 480
-        y: 240
-        width: 240
-        height: 240
+        x: 960
+        y: 480
+        width: 480
+        height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a4c9a87033744d9a824354e5e3b87ff
-      internalID: -1840715697
+      spriteID: 2f7baf57f078c48929baa7c7673d4463
+      internalID: 2087464321
       vertices: []
       indices: 
       edges: []
@@ -344,19 +176,19 @@ TextureImporter:
       name: Cups_1_11
       rect:
         serializedVersion: 2
-        x: 720
-        y: 240
-        width: 240
-        height: 240
+        x: 1440
+        y: 480
+        width: 480
+        height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b267e4e8a7dbe4a70b12f9360b7c5b05
-      internalID: 1706570077
+      spriteID: d1158b4071cea47c3bc90eb770d46868
+      internalID: 1875163366
       vertices: []
       indices: 
       edges: []
@@ -367,17 +199,17 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 240
-        height: 240
+        width: 480
+        height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cefb25528d8ca42de8728d2707d259ea
-      internalID: -1380307230
+      spriteID: f1325dd3711eb4e39b0ab1a3c2b45a8c
+      internalID: 671040901
       vertices: []
       indices: 
       edges: []
@@ -386,19 +218,19 @@ TextureImporter:
       name: Cups_1_13
       rect:
         serializedVersion: 2
-        x: 240
+        x: 480
         y: 0
-        width: 240
-        height: 240
+        width: 480
+        height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79ec855dd144b4a5babd6efc90518fad
-      internalID: -232523368
+      spriteID: 62d9fe225b7bc4c2cad5cfeb09e001bd
+      internalID: 345444103
       vertices: []
       indices: 
       edges: []
@@ -407,19 +239,19 @@ TextureImporter:
       name: Cups_1_15
       rect:
         serializedVersion: 2
-        x: 720
+        x: 1440
         y: 0
-        width: 240
-        height: 240
+        width: 480
+        height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c37dc5365204d405a9f8c0133e5865e7
-      internalID: 1947540128
+      spriteID: c01069cf9a2434742826fe2cb2479794
+      internalID: 40279740
       vertices: []
       indices: 
       edges: []
@@ -435,22 +267,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cups_1_0: -2063312492
-      Cups_1_1: -30370868
-      Cups_1_10: -1840715697
-      Cups_1_11: 1706570077
-      Cups_1_12: -1380307230
-      Cups_1_13: -232523368
-      Cups_1_14: -1973005852
-      Cups_1_15: 1947540128
-      Cups_1_2: -390800091
-      Cups_1_3: 1787031829
-      Cups_1_4: -1323598529
-      Cups_1_5: 184048762
-      Cups_1_6: 341975554
-      Cups_1_7: -1879580033
-      Cups_1_8: 1668190301
-      Cups_1_9: -2118111531
+      Cups_1_0: 375759371
+      Cups_1_1: -212005247
+      Cups_1_10: 2087464321
+      Cups_1_11: 1875163366
+      Cups_1_12: 671040901
+      Cups_1_13: 345444103
+      Cups_1_14: -1193200971
+      Cups_1_15: 40279740
+      Cups_1_2: 1458010871
+      Cups_1_3: -265904331
+      Cups_1_4: 641138806
+      Cups_1_5: -1498251453
+      Cups_1_6: -1297492824
+      Cups_1_7: -1418853731
+      Cups_1_8: 260275066
+      Cups_1_9: -2110609626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
