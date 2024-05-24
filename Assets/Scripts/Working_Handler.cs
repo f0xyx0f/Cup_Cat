@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Working_Handler : MonoBehaviour
 {
-    void Activate_Btn() => GetComponent<Button>().interactable = true;
+    public GameObject es;
+    void Activate_Btn() => es.SetActive(true);
+    void Delete() => Destroy(transform.GetChild(0).gameObject);
 }

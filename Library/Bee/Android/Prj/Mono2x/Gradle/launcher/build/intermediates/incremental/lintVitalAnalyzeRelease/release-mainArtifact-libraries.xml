@@ -1,0 +1,36 @@
+<libraries>
+  <library
+      name="/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+      jars="/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/a19bc8f1af52b30838f2d28fac2a33e7/transformed/out/jars/classes.jar:/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/a19bc8f1af52b30838f2d28fac2a33e7/transformed/out/jars/libs/classes-2.jar:/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/a19bc8f1af52b30838f2d28fac2a33e7/transformed/out/jars/libs/unity-classes.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/a19bc8f1af52b30838f2d28fac2a33e7/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+      jars="/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar"
+      resolved="__local_aars__:/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified"/>
+  <library
+      name="__local_aars__:/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/classes.jar:unspecified@jar"
+      jars="/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/classes.jar"
+      resolved="__local_aars__:/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/classes.jar:unspecified"/>
+  <library
+      name="/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:mobilenotifications.androidlib::release"
+      jars="/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/mobilenotifications.androidlib/build/.transforms/5f0e3ee5cc6a1607079fd1ab59c4f5d0/transformed/out/jars/classes.jar"
+      resolved="Gradle.unityLibrary:mobilenotifications.androidlib:unspecified"
+      folder="/Users/alisa/Documents/GitHub/Cup_Cat/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/mobilenotifications.androidlib/build/.transforms/5f0e3ee5cc6a1607079fd1ab59c4f5d0/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

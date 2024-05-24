@@ -96,6 +96,7 @@ namespace UnityEditor.Tilemaps
             EditorApplication.hierarchyChanged += HierarchyChanged;
             EditorApplication.playModeStateChanged += PlayModeStateChanged;
             Selection.selectionChanged += OnSelectionChange;
+            Undo.selectionUndoRedoPerformed += OnSelectionUndoRedoPerformed;
 
             m_FlushPaintTargetCache = true;
         }
@@ -106,6 +107,7 @@ namespace UnityEditor.Tilemaps
             EditorApplication.hierarchyChanged -= HierarchyChanged;
             EditorApplication.playModeStateChanged -= PlayModeStateChanged;
             Selection.selectionChanged -= OnSelectionChange;
+            Undo.selectionUndoRedoPerformed -= OnSelectionUndoRedoPerformed;
             FlushCache();
         }
 
@@ -212,10 +214,7 @@ namespace UnityEditor.Tilemaps
             {
                 Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
             }
-        }
 
-        private void ActiveToolChanging()
-        {
             if (GridSelection.active
                 && !TilemapEditorTool.IsActive(typeof(MoveTool))
                 && !TilemapEditorTool.IsActive(typeof(SelectTool))
@@ -223,6 +222,10 @@ namespace UnityEditor.Tilemaps
             {
                 GridSelection.Clear();
             }
+        }
+
+        private void ActiveToolChanging()
+        {
             CallOnToolDeactivated();
         }
 
@@ -251,7 +254,7 @@ namespace UnityEditor.Tilemaps
 
             if (selectedObject != null)
             {
-                bool isPrefab = EditorUtility.IsPersistent(selectedObject) || (selectedObject.hideFlags & HideFlags.NotEditable) != 0;
+                var isPrefab = EditorUtility.IsPersistent(selectedObject) || (selectedObject.hideFlags & HideFlags.NotEditable) != 0;
                 if (isPrefab)
                 {
                     var assetPath = AssetDatabase.GetAssetPath(selectedObject);
@@ -268,6 +271,12 @@ namespace UnityEditor.Tilemaps
                     }
                 }
             }
+        }
+
+        private void OnSelectionUndoRedoPerformed(Undo.UndoRedoType undo)
+        {
+            if (GridSelection.active && !TilemapEditorTool.IsActive(typeof(SelectTool)))
+                TilemapEditorTool.ToggleActiveEditorTool(typeof(SelectTool));
         }
 
         private void PlayModeStateChanged(PlayModeStateChange state)

@@ -1,10 +1,5 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Add_Ingredient : MonoBehaviour
 {
@@ -23,7 +18,6 @@ public class Add_Ingredient : MonoBehaviour
         }
 
     }
-
     public void DiactivateEmote()
          => gameObject.SetActive(false);
     public void ActivateEmote(Vector2 pose, Sprite face)
